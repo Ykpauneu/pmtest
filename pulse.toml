@@ -2,7 +2,8 @@
 name = "ee"
 publisher = "Mergevos"
 repo = "e"
-dependencies = [
-'Ykpauneu/pmdep@main',
-'Ykpauneu/pmtest@dev',
+
+[requirements]
+live = [
+'Ykpauneu/pmdep@main'
 ]
