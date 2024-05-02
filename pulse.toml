@@ -7,3 +7,17 @@ repo = "e"
 live = [
 'Ykpauneu/pmdep@main'
 ]
+
+[resource.linux]
+name = "^crashdetect-(.*)-linux.tar.gz$"
+platform = "linux"
+archive = true
+includes = [ "crashdetect-(.*)-linux" ]
+plugins = [ "crashdetect-(.*)-linux/crashdetect.so" ]
+
+[resource.windows]
+name = "^crashdetect-(.*)-win32.zip$"
+platform = "windows"
+archive = true
+includes = [ "crashdetect-(.*)-win32" ]
+plugins = [ "crashdetect-(.*)-win32/crashdetect.dll" ]
