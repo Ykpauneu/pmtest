@@ -1,7 +1,7 @@
 [project]
-name = "ee"
-publisher = "Mergevos"
-repo = "e"
+name = "samp-plugin-crashdetect"
+publisher = "Zeex"
+repo = "samp-plugin-crashdetect"
 
 [requirements]
 live = [
